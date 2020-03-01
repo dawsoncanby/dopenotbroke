@@ -8,10 +8,22 @@ body {
   color: white;
 }
 
+.social-links {
+  margin: auto;
+  max-width: 500px;
+}
+
 .link-icon {
-  width: 25px;
-  height: 25px;
+  width: 30px;
+  height: 30px;
   margin: 10px;
+  vertical-align: baseline;
+  transition: all 0.2s;
+}
+
+.link-icon:hover {
+  transform: scale(1.2);
+  background-color: rgba(0, 0, 0, 0.5)
 }
 
 .brand-large {
@@ -23,7 +35,7 @@ body {
 }
 
 .site-link {
-  margin: 20px;
+  margin: 10px;
   display: inline-block;
   font-size: 1.4rem;
   text-align: center;
@@ -39,8 +51,8 @@ body {
 }
 
 .site-link:hover {
-  transform: translateY(-2px);
-  padding-bottom: 2px;
+  /* transform: translateY(-2px); */
+  /* padding-bottom: 2px; */
   border-bottom-color: white;
   cursor: pointer;
 }
