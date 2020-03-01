@@ -1,0 +1,50 @@
+html {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.link-icon {
+  width: 25px;
+  height: 25px;
+  margin: 10px;
+}
+
+.brand-large {
+  font-size: 2.5rem;
+  margin-top: 15vh;
+}
+
+.site-link {
+  margin: 20px;
+  display: inline-block;
+  font-size: 1.4rem;
+  text-align: center;
+  vertical-align: baseline;
+  border-bottom: thin solid transparent;
+
+  transition: all 0.3s;
+}
+
+.site-link:hover {
+  transform: translateY(-2px);
+  padding-bottom: 2px;
+  border-bottom-color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 470px) {
+  .site-link {
+    display: table;
+    margin: 5px auto;
+  }
+
+  .site-link:hover {
+    transform: none;
+    padding-bottom: 0px;
+  }
+}
