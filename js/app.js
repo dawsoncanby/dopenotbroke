@@ -1,7 +1,8 @@
 let page = 'homepage';
 
 function selectPage(newPage) {
-  $('.page').hide()
+
+  $('#' + page).hide()
   $('#' + newPage).show()
   page = newPage;
 }
@@ -12,8 +13,8 @@ $(document).ready(() => {
     let link = $(e);
     let page = link.children('span').html().toLowerCase()
     link.on('click', () => {
-      // TODO: create other pages
-      // selectPage(page);
+      console.log(page);
+      selectPage(page);
     })
   })
 
