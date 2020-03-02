@@ -1,22 +1,20 @@
-let page = 'homepage';
+let page = 'homepage'
 
 function selectPage(newPage) {
-
   $('#' + page).hide()
   $('#' + newPage).show()
-  page = newPage;
+  page = newPage
 }
 
 
 $(document).ready(() => {
   $('#site-links').children('div').each((i, e) => {
-    let link = $(e);
-    let page = link.children('span').html().toLowerCase()
+    let link = $(e)
+    let page = link.children('span').html().toLowerCase().replace(' ', '_')
     link.on('click', () => {
-      console.log(page);
-      selectPage(page);
+      selectPage(page)
     })
   })
 
-  selectPage(page);
+  selectPage(page)
 })
