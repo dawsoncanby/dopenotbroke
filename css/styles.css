@@ -8,6 +8,10 @@ body {
   color: white;
 }
 
+a {
+  text-decoration: none;
+}
+
 .social-links {
   margin: auto;
   max-width: 500px;
