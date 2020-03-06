@@ -12,6 +12,14 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
 .social-links {
   margin: auto;
   max-width: 500px;
