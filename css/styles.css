@@ -72,10 +72,13 @@ a:visited {
 }
 
 .site-link:hover {
-  /* transform: translateY(-2px); */
-  /* padding-bottom: 2px; */
   border-bottom-color: white;
   cursor: pointer;
+}
+
+/* bootstrap overrides */
+.navbar-dark .navbar-toggler {
+  border-color: transparent;
 }
 
 @media (max-width: 470px) {
