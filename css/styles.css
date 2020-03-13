@@ -39,7 +39,6 @@ a:visited {
 }
 
 .brand-large {
-  font-size: 2.5rem;
   margin-top: 5vh;
   width: 100%;
   max-width: 650px;
@@ -76,9 +75,19 @@ a:visited {
   cursor: pointer;
 }
 
+/* dope content page */
+.artist-cards {
+  max-width: 1015px;
+  margin: auto;
+}
+
 /* bootstrap overrides */
 .navbar-dark .navbar-toggler {
   border-color: transparent;
+}
+
+.bg-dark {
+  background-color: #111!important;
 }
 
 @media (max-width: 470px) {
